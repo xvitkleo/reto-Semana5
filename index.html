@@ -5,267 +5,288 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <p>A</p>
-      <nav>
-        <li><a href="">Home</a></li>
-        <li><a href="">Espectaculo</a></li>
-        <li><a href="">Deportes</a></li>
-      </nav>
-      <h1>Blog Afrianska</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-        provident adipisci perferendis vel, voluptatum ut?
-      </p>
+      <div>
+        <p class="logo">A</p>
+        <nav>
+          <li><a href="">Home</a></li>
+          <li><a href="">Espectaculo</a></li>
+          <li><a href="">Deportes</a></li>
+        </nav>
+      </div>
+      <div>
+        <h1>Blog Afrianska</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor <br />
+          incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
     </header>
     <main>
-      <div>
-        <img src="./images/icon-search.png" alt="icon-search" />
-        <input type="text" placeholder="Search Article" />
+      <div class="main-wrapper">
+        <div class="buscador">
+          <img src="./images/icon-search.png" alt="icon-search" />
+          <input type="text" placeholder="Search Article" />
+        </div>
+
+        <article class="popular">
+          <p>POPULAR</p>
+          <div class="flex">
+            <div>
+              <h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus sit similique deserunt quidem aspernatur? Distinctio,
+                ipsam consequuntur, dolore reiciendis animi ullam cupiditate in
+                nihil nam nostrum porro velit minima enim!
+              </p>
+              <div class="mini-footer">
+                <div>
+                  <h4>Samantha Leuthex</h4>
+                  <h5>May 5, 3 min read</h5>
+                </div>
+                <div>
+                  <img src="./images/icon-save.png" alt="icon-save" />
+                  <img src="./images/icon-share.png" alt="icon-share" />
+                </div>
+              </div>
+            </div>
+            <figure>
+              <img src="./images/img-post-1.png" alt="img-post-1" />
+            </figure>
+          </div>
+          <div class="flex">
+            <div>
+              <figure>
+                <img src="./images/img-post-2.png" alt="img-post-2" />
+              </figure>
+              <h3>Porta proin tellus sed pulvinar odio eu pulvinar.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus non atque amet, at, aliquam ratione similique, quasi
+                corporis nobis velit necessitatibus consequuntur adipisci.
+                Reiciendis culpa repellendus incidunt, odit dolores temporibus.
+              </p>
+              <div class="mini-footer">
+                <div>
+                  <h4>Samantha Leuthex</h4>
+                  <h5>May 5, 3 min read</h5>
+                </div>
+                <div>
+                  <img src="./images/icon-save.png" alt="icon-save" />
+                  <img src="./images/icon-share.png" alt="icon-share" />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <figure>
+                <img src="./images/img-post-3.png" alt="img-post-3" />
+              </figure>
+              <h3>Non quam tortor, proin eu egestas scelerisque.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus non atque amet, at, aliquam ratione similique, quasi
+                corporis nobis velit necessitatibus consequuntur adipisci.
+                Reiciendis culpa repellendus incidunt, odit dolores temporibus.
+              </p>
+              <div class="mini-footer">
+                <div>
+                  <h4>Samantha Leuthex</h4>
+                  <h5>May 5, 3 min read</h5>
+                </div>
+                <div>
+                  <img src="./images/icon-save.png" alt="icon-save" />
+                  <img src="./images/icon-share.png" alt="icon-share" />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <figure>
+                <img src="./images/img-post-4.png" alt="img-post-4" />
+              </figure>
+              <h3>Amet amet sed pharetra risus sit eget interdum.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus non atque amet, at, aliquam ratione similique, quasi
+                corporis nobis velit necessitatibus consequuntur adipisci.
+                Reiciendis culpa repellendus incidunt, odit dolores temporibus.
+              </p>
+              <div class="mini-footer">
+                <div>
+                  <h4>Samantha Leuthex</h4>
+                  <h5>May 5, 3 min read</h5>
+                </div>
+                <div>
+                  <img src="./images/icon-save.png" alt="icon-search" />
+                  <img src="./images/icon-share.png" alt="icon-share" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>SEE ALL POPULAR ARTICLE</p>
+        </article>
+
+        <article class="allArticle">
+          <p>ALL ARTICLE</p>
+
+          <div class="miniArticle">
+            <figure>
+              <img src="./images/img-post-5.png" alt="img-post-5" />
+            </figure>
+            <div>
+              <h3>Massa eu in laoreet enim augue vulputate nunc.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                asperiores possimus dolorem deserunt ullam necessitatibus
+                cupiditate amet optio qui doloremque aliquam provident,
+                exercitationem nihil sint animi minus culpa veritatis eveniet?
+              </p>
+              <div class="mini-footer">
+                <div>
+                  <h4>Smantha Leuthex</h4>
+                  <h5>May 5, 3 min read</h5>
+                </div>
+                <div>
+                  <img src="./images/icon-save.png" alt="icon-save" />
+                  <img src="./images/icon-share.png" alt="icon-share" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="miniArticle">
+            <figure>
+              <img src="./images/img-post-6.png" alt="img-post-6" />
+            </figure>
+            <div>
+              <h3>Feugiat a euismod arcu feugiat posuere morbi.</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+                ullam doloremque asperiores distinctio nostrum qui sunt!
+                Adipisci, exercitationem? Labore quisquam earum reprehenderit
+                laudantium natus harum quis libero. Sapiente, molestiae
+                praesentium.
+              </p>
+              <div class="mini-footer">
+                <div>
+                  <h4>Smantha Leuthex</h4>
+                  <h5>May 5, 3 min read</h5>
+                </div>
+                <div>
+                  <img src="./images/icon-save.png" alt="icon-save" />
+                  <img src="./images/icon-share.png" alt="icon-share" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="miniArticle">
+            <figure>
+              <img src="./images/img-post-7.png" alt="img-post-7" />
+            </figure>
+            <div>
+              <h3>Sociis purus pellentesque faucibus vitae et felis.</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dolores fuga architecto ex perferendis quo quidem quam fugit
+                placeat. Quo dolorum excepturi ea debitis? In explicabo possimus
+                laborum, vel aliquam vitae!
+              </p>
+              <div class="mini-footer">
+                <div>
+                  <h4>Smantha Leuthex</h4>
+                  <h5>May 5, 3 min read</h5>
+                </div>
+                <div>
+                  <img src="./images/icon-save.png" alt="icon-save" />
+                  <img src="./images/icon-share.png" alt="icon-share" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="miniArticle">
+            <figure>
+              <img src="./images/img-post-8.png" alt="img-post-8" />
+            </figure>
+            <div>
+              <h3>Cursus feugiat mi pellentesque mauris sed eu.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab in
+                deserunt nemo corporis velit excepturi quisquam soluta suscipit,
+                laborum tempora at provident delectus ratione, vel nam optio
+                dolore vitae distinctio?
+              </p>
+              <div class="mini-footer">
+                <div>
+                  <h4>Smantha Leuthex</h4>
+                  <h5>May 5, 3 min read</h5>
+                </div>
+                <div>
+                  <img src="./images/icon-save.png" alt="icon-save" />
+                  <img src="./images/icon-share.png" alt="icon-share" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="miniArticle">
+            <figure>
+              <img src="images/img-post-9.png" alt="img-post-9" />
+            </figure>
+            <div>
+              <h3>A morbi arcu curabitur etiam fringilla augue.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis hic similique dolor, provident, suscipit debitis ut
+                nobis repudiandae possimus molestias, esse autem? Dolorem minima
+                iusto, eaque velit temporibus nemo quo?
+              </p>
+              <div class="mini-footer">
+                <div>
+                  <h4>Smantha Leuthex</h4>
+                  <h5>May 5, 3 min read</h5>
+                </div>
+                <div>
+                  <img src="./images/icon-save.png" alt="icon-save" />
+                  <img src="./images/icon-share.png" alt="icon-share" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="navArrows">
+            <div>
+              <img src="./images/arrow-left.png" alt="arrow-left" />
+              <p>Old Post</p>
+            </div>
+            <div>
+                <div></div>
+                <p>New Post</p>
+              <img src="./images/arrow-right.png" alt="arrow-right" />              
+            </div>
+          </div>
+        </article>
       </div>
-
-      <article class="Popular">
-        <div>
-          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
-            sit similique deserunt quidem aspernatur? Distinctio, ipsam
-            consequuntur, dolore reiciendis animi ullam cupiditate in nihil nam
-            nostrum porro velit minima enim!
-          </p>
-          <div>
-            <div>
-              <h4>Samantha Leuthex</h4>
-              <h5>May 5, 3 min read</h5>
-            </div>
-            <div>
-              <img src="./images/icon-search.png" alt="icon-save" />
-              <img src="./images/icon-share.png" alt="icon-share" />
-            </div>
-          </div>
-          <figure>
-            <img src="./images/img-post-1.png" alt="img-post-1" />
-          </figure>
-
-          <div>
-            <figure>
-              <img src="./images/img-post-2.png" alt="img-post-2" />
-            </figure>
-            <h3>Porta proin tellus sed pulvinar odio eu pulvinar.</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Doloribus non atque amet, at, aliquam ratione similique, quasi
-              corporis nobis velit necessitatibus consequuntur adipisci.
-              Reiciendis culpa repellendus incidunt, odit dolores temporibus.
-            </p>
-            <div>
-              <div>
-                <h4>Samantha Leuthex</h4>
-                <h5>May 5, 3 min read</h5>
-              </div>
-              <div>
-                <img src="./images/icon-save.png" alt="icon-save" />
-                <img src="./images/icon-share.png" alt="icon-share" />
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <figure>
-              <img src="./images/img-post-3.png" alt="img-post-3" />
-            </figure>
-            <h3>Non quam tortor, proin eu egestas scelerisque.</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Doloribus non atque amet, at, aliquam ratione similique, quasi
-              corporis nobis velit necessitatibus consequuntur adipisci.
-              Reiciendis culpa repellendus incidunt, odit dolores temporibus.
-            </p>
-            <div>
-              <div>
-                <h4>Samantha Leuthex</h4>
-                <h5>May 5, 3 min read</h5>
-              </div>
-              <div>
-                <img src="./images/icon-save.png" alt="icon-save" />
-                <img src="./images/icon-share.png" alt="icon-share" />
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <figure>
-              <img src="./images/img-post-4.png" alt="img-post-4" />
-            </figure>
-            <h3>Amet amet sed pharetra risus sit eget interdum.</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Doloribus non atque amet, at, aliquam ratione similique, quasi
-              corporis nobis velit necessitatibus consequuntur adipisci.
-              Reiciendis culpa repellendus incidunt, odit dolores temporibus.
-            </p>
-            <div>
-              <div>
-                <h4>Samantha Leuthex</h4>
-                <h5>May 5, 3 min read</h5>
-              </div>
-              <div>
-                <img src="./images/icon-save.png" alt="icon-search" />
-                <img src="./images/icon-share.png" alt="icon-share" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <p>SEE ALL POPULAR ARTICLE</p>
-
-        <div></div>
-      </article>
-
-      <article class="AllArticle">
-        <div>
-          <figure>
-            <img src="./images/img-post-5.png" alt="img-post-5" />
-          </figure>
-          <div>
-            <h3>Massa eu in laoreet enim augue vulputate nunc.</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              asperiores possimus dolorem deserunt ullam necessitatibus
-              cupiditate amet optio qui doloremque aliquam provident,
-              exercitationem nihil sint animi minus culpa veritatis eveniet?
-            </p>
-            <div>
-              <div>
-                <h4>Smantha Leuthex</h4>
-                <h5>May 5, 3 min read</h5>
-              </div>
-              <div>
-                <img src="./images/icon-save.png" alt="icon-save" />
-                <img src="./images/icon-share.png" alt="icon-share" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <figure>
-            <img src="./images/img-post-6.png" alt="img-post-6" />
-          </figure>
-          <div>
-            <h3>Feugiat a euismod arcu feugiat posuere morbi.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
-              ullam doloremque asperiores distinctio nostrum qui sunt! Adipisci,
-              exercitationem? Labore quisquam earum reprehenderit laudantium
-              natus harum quis libero. Sapiente, molestiae praesentium.
-            </p>
-            <div>
-              <div>
-                <h4>Smantha Leuthex</h4>
-                <h5>May 5, 3 min read</h5>
-              </div>
-              <div>
-                <img src="./images/icon-save.png" alt="icon-save" />
-                <img src="./images/icon-share.png" alt="icon-share" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <figure>
-            <img src="./images/img-post-7.png" alt="img-post-7" />
-          </figure>
-          <div>
-            <h3>Sociis purus pellentesque faucibus vitae et felis.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-              fuga architecto ex perferendis quo quidem quam fugit placeat. Quo
-              dolorum excepturi ea debitis? In explicabo possimus laborum, vel
-              aliquam vitae!
-            </p>
-            <div>
-              <div>
-                <h4>Smantha Leuthex</h4>
-                <h5>May 5, 3 min read</h5>
-              </div>
-              <div>
-                <img src="./images/icon-save.png" alt="icon-save" />
-                <img src="./images/icon-share.png" alt="icon-share" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <figure>
-            <img src="./images/img-post-8.png" alt="img-post-8" />
-          </figure>
-          <div>
-            <h3>Cursus feugiat mi pellentesque mauris sed eu.</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab in
-              deserunt nemo corporis velit excepturi quisquam soluta suscipit,
-              laborum tempora at provident delectus ratione, vel nam optio
-              dolore vitae distinctio?
-            </p>
-            <div>
-              <div>
-                <h4>Smantha Leuthex</h4>
-                <h5>May 5, 3 min read</h5>
-              </div>
-              <div>
-                <img src="./images/icon-save.png" alt="icon-save" />
-                <img src="./images/icon-share.png" alt="icon-share" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <figure><img src="images/img-post-9.png" alt="img-post-9" /></figure>
-          <div>
-            <h3>A morbi arcu curabitur etiam fringilla augue.</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis hic similique dolor, provident, suscipit debitis ut
-              nobis repudiandae possimus molestias, esse autem? Dolorem minima
-              iusto, eaque velit temporibus nemo quo?
-            </p>
-            <div>
-              <div>
-                <h4>Smantha Leuthex</h4>
-                <h5>May 5, 3 min read</h5>
-              </div>
-              <div>
-                <img src="./images/icon-save.png" alt="icon-save" />
-                <img src="./images/icon-share.png" alt="icon-share" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div>
-            <img src="./images/arrow-left.png" alt="arrow-left" />
-            <p>Old Post</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="./images/arrow-right.png" alt="arrow-right" />
-            <p>New Post</p>
-          </div>
-        </div>
-      </article>
     </main>
+
     <footer>
-      <div>
+      <div class="flex footer1">
         <div>
-          <h2>Interested to work with our team?</h2>
+          <h2>Interested to work</h2>
+          <h2> with our team?</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eius
             illum delectus architecto porro. Neque sed eius recusandae vitae
@@ -276,20 +297,53 @@
         <button>Let's Talk</button>
       </div>
 
-      <div>
-          <div>
-              <p>A</p>
-              <h3>Afrianska</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id at molestiae earum voluptate officiis a. Unde voluptatem eos et corporis. Id officia maxime quas magnam earum ratione aspernatur eius aut?</p>
+      <div class="flex footer2">
+        <div>
+          <div class="flex">
+            <p class="logo">A</p>
+            <h3>Afrianska</h3>
           </div>
-          <div>
-              <h3>About Us</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident nemo quam itaque unde autem, consectetur reiciendis, neque sapiente laudantium optio repudiandae deleniti consequuntur ullam temporibus numquam! Quibusdam quas facilis aliquid?</p>
-          </div>
-          <div>
-              <h3>Follow Us</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi hic ex, consequuntur nemo temporibus dolore sunt dolores quis ut aliquid. Aliquid quae maxime pariatur dolorem non veniam repudiandae facilis aperiam.</p>
-          </div>
+          
+          <p>
+            A. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <p>
+            T. +62-812-7313-4321
+          </p>
+          <p>
+            E hello.afrian@gmail.com
+          </p>
+        </div>
+        <div>
+          <h3>About Us</h3>
+          <p>
+            About
+          </p>
+          <p>
+            What We Do
+          </p>
+          <p>
+            Project
+          </p>
+          <p>
+            How It Work With Us
+          </p>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <p>
+            Instagram
+          </p>
+          <p>
+            Facebook
+          </p>
+          <p>
+            LinkedIn
+          </p>
+          <p>
+            Youtube
+          </p>
+        </div>
       </div>
       <h5>2019 © Afrianska. All rights reserved.</h5>
     </footer>
