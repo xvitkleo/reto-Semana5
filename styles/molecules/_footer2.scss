@@ -1,0 +1,20 @@
+.footer2 {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 0 18rem 0 18rem;
+    column-gap: 10rem;
+
+    .logo {
+      margin-top: 0;
+      box-shadow: -8px 0 #98C3E8;
+      margin: 0 1rem 0 1rem;
+      border: none;      
+      padding: 0.25rem 0.4rem 0.25rem 0.5rem;
+    }
+
+    div div {
+      align-items: center;
+    }
+  }
+  

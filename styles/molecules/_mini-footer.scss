@@ -1,0 +1,17 @@
+.mini-footer {
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        margin: 0;        
+
+        &:nth-child(2) img {
+            padding-left: 2rem;
+            padding-top: 0.2rem;
+        }
+    }
+
+  }
+  

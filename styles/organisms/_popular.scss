@@ -1,0 +1,23 @@
+.popular{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+
+    .flex {
+      margin: 1rem 0 1rem 0;
+    }
+
+    div figure:first-child img {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    div div:not(:nth-child(3)):not(.mini-footer) {
+      margin-right: 1.5rem;
+    }   
+
+    h6:last-child{
+      text-align: right;
+    }
+}
+

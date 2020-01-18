@@ -1,0 +1,45 @@
+@import "variables";
+
+h1 {
+    font-weight: normal;
+    font-family: Arial;
+  }
+  
+  h2, h3, h4{
+    font-weight: bold;
+    color: $color-titulos;
+    padding-bottom: .3rem;
+  }
+  
+  h4 {
+    font-size: 0.7rem;
+  }
+  
+  h5 {
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  h6 {
+    color: #356ead;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  p{
+      color: black;
+      font-weight: normal;      
+      font-size: .8rem;
+      line-height: 1.5rem;
+  }

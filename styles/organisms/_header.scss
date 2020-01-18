@@ -1,0 +1,31 @@
+header {
+    div {               
+        &:first-child {            
+            display: flex;
+            justify-content: space-between;
+            padding: 3rem;
+            align-items: center;
+        }
+        
+        &:nth-child(2) {
+            text-align: center;
+            background: linear-gradient(211.87deg, #98d0fc 2.46%, #3481d7 93.24%);
+            color: white;
+            font-family: Arial;
+            padding: 3rem;
+        }
+    }
+
+    nav {
+        display: flex;
+    }
+
+    a{
+        margin: 1rem;
+    }
+
+    p:nth-child(2) {
+        padding-top: 2rem;
+        color: rgba(255, 255, 255, 0.78);
+    }
+}

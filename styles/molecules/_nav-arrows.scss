@@ -1,0 +1,21 @@
+.navArrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+        margin-bottom: 3rem;
+    }
+
+    p {
+        color: #356EAD;
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+
+    }
+}
