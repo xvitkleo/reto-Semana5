@@ -26,8 +26,10 @@
       margin-bottom: 1.5rem;      
     }
 
-    div div:not(:nth-child(3)):not(.mini-footer) {
-      margin-right: 1.5rem;
+    > div {
+      > div:not(:nth-child(3)) {
+        margin-right: 1.5rem;
+      }
     }   
 
     h6:last-child{
