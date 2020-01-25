@@ -5,10 +5,6 @@
     font-family: Helvetica;
   }
   
-body {
-    margin: 5rem;
-    border: solid rgb(49, 96, 153);
-}
 
 .flex {
     display: flex;
@@ -34,4 +30,6 @@ body {
 @import"../organisms/footer";
 @import"../organisms/header";
 @import"../organisms/popular";
+
+@import"../responsive";
 

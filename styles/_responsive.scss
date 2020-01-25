@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+    .main-wrapper {
+        width: 90%;
+    }
+
+    footer {
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    html{
+        font-size: 12px;
+    }
+    .flex, .miniArticle{
+        display: block;
+
+    }
+    .miniArticle {
+        figure {
+            margin-right: 0;
+            img {
+                width: 100%;
+            }
+        }        
+    }
+    .popular {
+        h6 + div {
+            > figure, > div {
+                width: 100%;
+            }
+        }
+        div div{
+            width: 100%;
+        }
+    } 
+
+    .footer1 {
+        button, div{
+            width: 80%;
+            margin-left: 1rem;
+        }
+
+        button {
+            margin-top: 2rem;
+        }
+    }
+
+    .footer2 {
+        > div{
+            margin-left: 0;
+            width: 100%;
+        }
+        .flex {
+            display: flex;
+        }        
+    }
+
+    footer h5{        
+        margin-left: 12%;
+    }
+}
